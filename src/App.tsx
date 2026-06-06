@@ -98,7 +98,7 @@ function App() {
 
           {step === "app" && (
             <motion.div key="app" {...fadeIn} style={{ width: "100%", minHeight: "100vh" }}>
-              <WouterRouter base="">
+              <WouterRouter base="/live">
                 <ProgressProvider>
                   <Router />
                 </ProgressProvider>
